@@ -1,0 +1,16 @@
+C:\Users\yildi\OneDrive\Desktop\My Files\Work\Programming\Ödev\HakanHW10\Hakan\Hakan_ConsoleApp_EntityFrameWork\bin\Debug\Hakan_ConsoleApp_EntityFrameWork.exe.config
+C:\Users\yildi\OneDrive\Desktop\My Files\Work\Programming\Ödev\HakanHW10\Hakan\Hakan_ConsoleApp_EntityFrameWork\bin\Debug\Hakan_ConsoleApp_EntityFrameWork.exe
+C:\Users\yildi\OneDrive\Desktop\My Files\Work\Programming\Ödev\HakanHW10\Hakan\Hakan_ConsoleApp_EntityFrameWork\bin\Debug\Hakan_ConsoleApp_EntityFrameWork.pdb
+C:\Users\yildi\OneDrive\Desktop\My Files\Work\Programming\Ödev\HakanHW10\Hakan\Hakan_ConsoleApp_EntityFrameWork\bin\Debug\DAL.dll
+C:\Users\yildi\OneDrive\Desktop\My Files\Work\Programming\Ödev\HakanHW10\Hakan\Hakan_ConsoleApp_EntityFrameWork\bin\Debug\EntityFramework.dll
+C:\Users\yildi\OneDrive\Desktop\My Files\Work\Programming\Ödev\HakanHW10\Hakan\Hakan_ConsoleApp_EntityFrameWork\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yildi\OneDrive\Desktop\My Files\Work\Programming\Ödev\HakanHW10\Hakan\Hakan_ConsoleApp_EntityFrameWork\bin\Debug\DAL.pdb
+C:\Users\yildi\OneDrive\Desktop\My Files\Work\Programming\Ödev\HakanHW10\Hakan\Hakan_ConsoleApp_EntityFrameWork\bin\Debug\DAL.dll.config
+C:\Users\yildi\OneDrive\Desktop\My Files\Work\Programming\Ödev\HakanHW10\Hakan\Hakan_ConsoleApp_EntityFrameWork\bin\Debug\EntityFramework.xml
+C:\Users\yildi\OneDrive\Desktop\My Files\Work\Programming\Ödev\HakanHW10\Hakan\Hakan_ConsoleApp_EntityFrameWork\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yildi\OneDrive\Desktop\My Files\Work\Programming\Ödev\HakanHW10\Hakan\Hakan_ConsoleApp_EntityFrameWork\obj\Debug\Hakan_ConsoleApp_EntityFrameWork.csproj.AssemblyReference.cache
+C:\Users\yildi\OneDrive\Desktop\My Files\Work\Programming\Ödev\HakanHW10\Hakan\Hakan_ConsoleApp_EntityFrameWork\obj\Debug\Hakan_ConsoleApp_EntityFrameWork.csproj.SuggestedBindingRedirects.cache
+C:\Users\yildi\OneDrive\Desktop\My Files\Work\Programming\Ödev\HakanHW10\Hakan\Hakan_ConsoleApp_EntityFrameWork\obj\Debug\Hakan_ConsoleApp_EntityFrameWork.csproj.CoreCompileInputs.cache
+C:\Users\yildi\OneDrive\Desktop\My Files\Work\Programming\Ödev\HakanHW10\Hakan\Hakan_ConsoleApp_EntityFrameWork\obj\Debug\Hakan_ConsoleApp_EntityFrameWork.csproj.CopyComplete
+C:\Users\yildi\OneDrive\Desktop\My Files\Work\Programming\Ödev\HakanHW10\Hakan\Hakan_ConsoleApp_EntityFrameWork\obj\Debug\Hakan_ConsoleApp_EntityFrameWork.exe
+C:\Users\yildi\OneDrive\Desktop\My Files\Work\Programming\Ödev\HakanHW10\Hakan\Hakan_ConsoleApp_EntityFrameWork\obj\Debug\Hakan_ConsoleApp_EntityFrameWork.pdb

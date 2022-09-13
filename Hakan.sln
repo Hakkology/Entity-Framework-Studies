@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hakan_ConsoleApp_EntityFrameWork", "Hakan_ConsoleApp_EntityFrameWork\Hakan_ConsoleApp_EntityFrameWork.csproj", "{2929EA9F-88DB-4F44-92D4-84C5BF758E3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{95C04C3B-7073-48A2-8607-8D19FE4D5F9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2929EA9F-88DB-4F44-92D4-84C5BF758E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2929EA9F-88DB-4F44-92D4-84C5BF758E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2929EA9F-88DB-4F44-92D4-84C5BF758E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2929EA9F-88DB-4F44-92D4-84C5BF758E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C04C3B-7073-48A2-8607-8D19FE4D5F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C04C3B-7073-48A2-8607-8D19FE4D5F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C04C3B-7073-48A2-8607-8D19FE4D5F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C04C3B-7073-48A2-8607-8D19FE4D5F9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0FE310D-FACF-43A0-8CE3-9E404EDE3E93}
+	EndGlobalSection
+EndGlobal
