@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{95C04C3B-7073-48A2-8607-8D19FE4D5F9F}</ProjectGuid>
+    <ProjectGuid>{2946AE5A-1F2B-4F73-8CC2-03325C633E17}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DAL</RootNamespace>
@@ -50,89 +50,91 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Context\Categories.cs">
-      <DependentUpon>Northwind.tt</DependentUpon>
+    <Compile Include="Context\EntityFramework\Categories.cs">
+      <DependentUpon>NORTHWND.tt</DependentUpon>
     </Compile>
-    <Compile Include="Context\CustomerDemographics.cs">
-      <DependentUpon>Northwind.tt</DependentUpon>
+    <Compile Include="Context\EntityFramework\CustomerDemographics.cs">
+      <DependentUpon>NORTHWND.tt</DependentUpon>
     </Compile>
-    <Compile Include="Context\Customers.cs">
-      <DependentUpon>Northwind.tt</DependentUpon>
+    <Compile Include="Context\EntityFramework\Customers.cs">
+      <DependentUpon>NORTHWND.tt</DependentUpon>
     </Compile>
-    <Compile Include="Context\Employees.cs">
-      <DependentUpon>Northwind.tt</DependentUpon>
+    <Compile Include="Context\EntityFramework\Employees.cs">
+      <DependentUpon>NORTHWND.tt</DependentUpon>
     </Compile>
-    <Compile Include="Context\Northwind.Context.cs">
+    <Compile Include="Context\EntityFramework\NORTHWND.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Northwind.Context.tt</DependentUpon>
+      <DependentUpon>NORTHWND.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Context\Northwind.cs">
+    <Compile Include="Context\EntityFramework\NORTHWND.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Northwind.tt</DependentUpon>
+      <DependentUpon>NORTHWND.tt</DependentUpon>
     </Compile>
-    <Compile Include="Context\Northwind.Designer.cs">
+    <Compile Include="Context\EntityFramework\NORTHWND.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Northwind.edmx</DependentUpon>
+      <DependentUpon>NORTHWND.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Context\Orders.cs">
-      <DependentUpon>Northwind.tt</DependentUpon>
+    <Compile Include="Context\EntityFramework\Orders.cs">
+      <DependentUpon>NORTHWND.tt</DependentUpon>
     </Compile>
-    <Compile Include="Context\Order_Details.cs">
-      <DependentUpon>Northwind.tt</DependentUpon>
+    <Compile Include="Context\EntityFramework\Order_Details.cs">
+      <DependentUpon>NORTHWND.tt</DependentUpon>
     </Compile>
-    <Compile Include="Context\Products.cs">
-      <DependentUpon>Northwind.tt</DependentUpon>
+    <Compile Include="Context\EntityFramework\Products.cs">
+      <DependentUpon>NORTHWND.tt</DependentUpon>
     </Compile>
-    <Compile Include="Context\Region.cs">
-      <DependentUpon>Northwind.tt</DependentUpon>
+    <Compile Include="Context\EntityFramework\Region.cs">
+      <DependentUpon>NORTHWND.tt</DependentUpon>
     </Compile>
-    <Compile Include="Context\Shippers.cs">
-      <DependentUpon>Northwind.tt</DependentUpon>
+    <Compile Include="Context\EntityFramework\Shippers.cs">
+      <DependentUpon>NORTHWND.tt</DependentUpon>
     </Compile>
-    <Compile Include="Context\SoftwareDist.cs">
-      <DependentUpon>Northwind.tt</DependentUpon>
+    <Compile Include="Context\EntityFramework\SoftwareDist.cs">
+      <DependentUpon>NORTHWND.tt</DependentUpon>
     </Compile>
-    <Compile Include="Context\Suppliers.cs">
-      <DependentUpon>Northwind.tt</DependentUpon>
+    <Compile Include="Context\EntityFramework\Suppliers.cs">
+      <DependentUpon>NORTHWND.tt</DependentUpon>
     </Compile>
-    <Compile Include="Context\sysdiagrams.cs">
-      <DependentUpon>Northwind.tt</DependentUpon>
+    <Compile Include="Context\EntityFramework\sysdiagrams.cs">
+      <DependentUpon>NORTHWND.tt</DependentUpon>
     </Compile>
-    <Compile Include="Context\Territories.cs">
-      <DependentUpon>Northwind.tt</DependentUpon>
+    <Compile Include="Context\EntityFramework\Territories.cs">
+      <DependentUpon>NORTHWND.tt</DependentUpon>
     </Compile>
-    <Compile Include="Context\İsciName.cs">
-      <DependentUpon>Northwind.tt</DependentUpon>
+    <Compile Include="Context\EntityFramework\İsciName.cs">
+      <DependentUpon>NORTHWND.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <EntityDeploy Include="Context\Northwind.edmx">
+    <Folder Include="Context\AdoNET\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="Context\EntityFramework\NORTHWND.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Northwind.Designer.cs</LastGenOutput>
+      <LastGenOutput>NORTHWND.Designer.cs</LastGenOutput>
     </EntityDeploy>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
-    <None Include="Context\Northwind.edmx.diagram">
-      <DependentUpon>Northwind.edmx</DependentUpon>
+    <None Include="Context\EntityFramework\NORTHWND.edmx.diagram">
+      <DependentUpon>NORTHWND.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Context\Northwind.Context.tt">
+    <Content Include="Context\EntityFramework\NORTHWND.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Northwind.Context.cs</LastGenOutput>
-      <DependentUpon>Northwind.edmx</DependentUpon>
+      <LastGenOutput>NORTHWND.Context.cs</LastGenOutput>
+      <DependentUpon>NORTHWND.edmx</DependentUpon>
     </Content>
-    <Content Include="Context\Northwind.tt">
+    <Content Include="Context\EntityFramework\NORTHWND.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Northwind.edmx</DependentUpon>
-      <LastGenOutput>Northwind.cs</LastGenOutput>
+      <DependentUpon>NORTHWND.edmx</DependentUpon>
+      <LastGenOutput>NORTHWND.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>
